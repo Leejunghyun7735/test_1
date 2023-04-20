@@ -1,10 +1,11 @@
 # #한줄에 두가지 정수 인풋 받는법
-# a = input("asjdh: ")
-# print(a)
-# b = a.split()
-# print(a)
-# c,d = map(int,b)
-# print()
+
+a = input("asjdh: ")
+print (int,type(a))
+b = a.split()
+print(a)
+c,d = (int,b)
+print()
 
 
 

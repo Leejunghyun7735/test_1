@@ -126,9 +126,12 @@ my_list = [ {"이름":"권기현", "나이":32},
     {"이름":"김주영", "나이":14}]
 
 for person in my_list:
-    if person["이름"] != "이정현" and person["이름"] != "권기현":
-        person["나이"] += 1
-        print(my_list)
+    if person["이름"] == "이정현" or person["이름"] == "권기현":
+        person["나이"] -= 1
+    else:
+        person["나이"] += 100
+    
+print(f"person{'이름'}님 반갑습니다!")
 
 
 

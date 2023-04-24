@@ -9,15 +9,15 @@ print()
 
 
 
-# a,b= map(int,input("두개의 숫자를 입력: ").split()) #어제 배운거
-# print(a,b)
-# # 사칙연산 1000번:A+B 
-# A, B = map(int,input().split())
-# print(A+B)
-# print(A-B)
-# print(A*B)
-# print(int(A/B))
-# print(A%B)
+a,b= map(int,input("두개의 숫자를 입력: ").split()) #어제 배운거
+print(a,b)
+# 사칙연산 1000번:A+B 
+A, B = map(int,input().split())
+print(A+B)
+print(A-B)
+print(A*B)
+print(int(A/B))
+print(A%B)
 
 # #더하기 
 # A, B = map(int,input().split())

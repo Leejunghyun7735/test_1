@@ -63,17 +63,6 @@ print("게임이 끝났습니다.")
 
 
 
-options = ['가위','바위','보']
-computer_choice = random.randint(options)
-while True:
-   user_input = input('가위, 바위, 보 중에서 골라주세요')
-   if user_input> computer_choice:
-       break
-print("당신은 ", user_input, "를 냈습니다.")
-print("컴퓨터는 ", computer_choice, "를 냈습니다.")
-print(user_input,"")
-
-
 
 
 

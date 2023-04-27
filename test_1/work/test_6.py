@@ -25,6 +25,7 @@ while True:
 
     if user_input == computer_choice:
         print('비겼습니다.')
+        break
     elif user_input == '가위':
         if computer_choice == '바위':
             print('졌습니다.')
@@ -60,17 +61,17 @@ print(f'컴퓨터는 {computer_choice}를 냈습니다.')
 #을 보고, 구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하는지 검사해보자.
 
 
-x = int(input()) 
-n = int(input()) 
-total = 0
+# x = int(input()) 
+# n = int(input()) 
+# total = 0
 
-for i in range(0,n):
-    a,b= map(int,input().split())
-    total += a*b
+# for i in range(0,n):
+#     a,b= map(int,input().split())
+#     total += a*b
 
-if total == x:
-    print("YES")
-else:
-    print("NO")
+# if total == x:
+#     print("YES")
+# else:
+#     print("NO")
 
 

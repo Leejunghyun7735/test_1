@@ -11,9 +11,9 @@ def solution(sizes):
     w = 0 # 초기값! 비교하기 위함이다 0, max 60
     h = 0
     for i in sizes:
-      80  w = max(w,max(i)) 0,60) 70) 60) 80)
+        w = max(w,max(i)) 
         print(w) 
-      50  h = max(h,min(i))       
+        h = max(h,min(i))       
     a = w * h
     return a
 solution(sizes)
@@ -93,8 +93,8 @@ def solution(id_pw, db):
      
 
 
- 순서대로 중복된 값을 제거하고 뒤에있는 중복된 값도 출력해라
-# set
+#  순서대로 중복된 값을 제거하고 뒤에있는 중복된 값도 출력해라
+# # set
 
 
 

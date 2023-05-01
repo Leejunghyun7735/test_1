@@ -33,6 +33,8 @@ while True:
         else:
             print('이겼습니다!')
             break
+
+
     elif user_input == '바위':
         if computer_choice == '보':
             print('졌습니다.')
@@ -40,6 +42,8 @@ while True:
         else:
             print('이겼습니다!')
             break
+
+
     elif user_input == '보':
         if computer_choice == '가위':
             print('졌습니다.')
@@ -75,3 +79,16 @@ print(f'컴퓨터는 {computer_choice}를 냈습니다.')
 #     print("NO")
 
 
+
+
+
+
+
+
+
+# n,k = map(int,input().split())
+# x = list(map(int,input().split()))
+
+# x.sort()
+# a= x[-k]
+# print(a)

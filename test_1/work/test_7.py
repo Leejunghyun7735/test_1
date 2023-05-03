@@ -30,7 +30,7 @@ def match_result(user_input, computer_choice):
         else:
             return "비겼다."
 
-
+#WEWEWE
 
 options = ['가위', '바위', '보']
 computer_choice = random.choice(options)
